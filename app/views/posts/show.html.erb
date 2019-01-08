@@ -1,0 +1,9 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong><%= t('post_text') %>:</strong>
+  <%= @post.post %>
+</p>
+
+<%= link_to t('edit'), edit_post_path(@post) %> |
+<%= link_to t('back'), posts_path %>

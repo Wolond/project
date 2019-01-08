@@ -1,0 +1,115 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# The following keys must be escaped otherwise they will not be retrieved by
+# the default I18n backend:
+#
+# true, false, on, off, yes, no
+#
+# Instead, surround them with single quotes.
+#
+# en:
+#   'true': 'foo'
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# The following keys must be escaped otherwise they will not be retrieved by
+# the default I18n backend:
+#
+# true, false, on, off, yes, no
+#
+# Instead, surround them with single quotes.
+#
+# en:
+#   'true': 'foo'
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+en:
+  new_post_text: "Compose new text..."
+  text_about_it: "Post about it..."
+  submit_delete_post: "Are you sure you want to delete this tweeet?"
+  trends_text: "Trends"
+  trends_text_el: "Trend"
+  who_to_follow: "Who to follow?"
+  editing_text: "Edit text"
+  cancel: "Cancel"
+  create_tween: "Create a new Tweet"
+  post_text: "Post"
+  edit: "Edit"
+  back: "Back"
+  notification_post_updated: "Post was successfully updated."
+  notification_post_destroyed: "Post was successfully destroyed."
+  notification_post_created: "Post was successfully created."
+  logout: "Log Out"
+  signin: "Sign In"
+  signup: "Sign Up"
+  logo_title: "Twitler"
+  newpost: "New Post"
+  profile_text: "Profile"
+  post_count: "Posts"
+  following: "Following"
+  followers: "Followers"
+  submit: "Submit"
+
+ru:
+  new_post_text: "Напишите еще один текст..."
+  text_about_it: "Опубликуйте пост об этом..."
+  submit_delete_post: "Вы уверены, что хотите удалить этот твит?"
+  trends_text: "Тренды"
+  trends_text_el: "Тренд"
+  who_to_follow: "За кем следить?"
+  editing_text: "Изменить текст"
+  cancel: "Отмена"
+  create_tween: "Создайте новый Твит"
+  post_text: "Пост"
+  edit: "Изменить"
+  back: "Назад"
+  notification_post_updated: "Пост успешно обновлен."
+  notification_post_destroyed: "Пост успешно удален."
+  notification_post_created: "Пост успешно создан."
+  logout: "Выход"
+  signin: "Войти"
+  signup: "Зарегистрироваться"
+  logo_title: "Твитлер"
+  newpost: "Новый пост"
+  profile_text: "Профиль"
+  post_count: "Посты"
+  following: "Подписки"
+  followers: "Подписчики"
+  submit: "Подтвердить"
